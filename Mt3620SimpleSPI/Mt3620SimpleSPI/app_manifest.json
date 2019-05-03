@@ -1,17 +1,17 @@
 {
   "SchemaVersion": 1,
-  "Name" : "Mt3620ProgrammaticReset",
-  "ComponentId" : "bdf2444f-d40b-4ed9-9206-e6f58f372922",
+  "Name" : "Mt3620SimpleSPI",
+  "ComponentId" : "ba8df6bf-3ba4-4a99-bf00-6590b28fdb86",
   "EntryPoint": "/bin/app",
   "CmdArgs": [],
   "Capabilities": {
     "AllowedConnections": [],
     "AllowedTcpServerPorts": [],
     "AllowedUdpServerPorts": [],
-    "Gpio": [ 8, 9, 10, 12, 59 ],
+    "Gpio": [],
     "Uart": [],
     "I2cMaster": [],
-    "SpiMaster": ["ISU0"],
+    "SpiMaster": [ "ISU1" ],
     "WifiConfig": false,
     "NetworkConfig": false,
     "SystemTime": false

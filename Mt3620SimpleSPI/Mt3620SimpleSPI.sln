@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mt3620SimpleSPI", "Mt3620SimpleSPI\Mt3620SimpleSPI.vcxproj", "{C4A8F0AD-F66A-4196-9E4F-705C1947EF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4A8F0AD-F66A-4196-9E4F-705C1947EF14}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C4A8F0AD-F66A-4196-9E4F-705C1947EF14}.Debug|ARM.Build.0 = Debug|ARM
+		{C4A8F0AD-F66A-4196-9E4F-705C1947EF14}.Release|ARM.ActiveCfg = Release|ARM
+		{C4A8F0AD-F66A-4196-9E4F-705C1947EF14}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7431DF6-646D-4D89-B455-EE2349F6D8E7}
+	EndGlobalSection
+EndGlobal

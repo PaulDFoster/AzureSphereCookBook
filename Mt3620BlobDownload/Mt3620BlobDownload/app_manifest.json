@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "Mt3620BlobDownload",
+  "ComponentId" : "364170d4-8a14-43e9-8aaf-85d0f23532bb",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "azurespheremcuupdate.blob.core.windows.net" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [],
+    "Uart": [],
+    "I2cMaster": [],
+    "SpiMaster": [],
+    "WifiConfig": false,
+    "NetworkConfig": false,
+    "SystemTime": false
+  }
+}

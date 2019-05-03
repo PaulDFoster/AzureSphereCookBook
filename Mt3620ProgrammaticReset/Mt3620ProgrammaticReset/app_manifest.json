@@ -11,7 +11,7 @@
     "Gpio": [ 8, 9, 10, 12, 59 ],
     "Uart": [],
     "I2cMaster": [],
-    "SpiMaster": ["ISU0"],
+    "SpiMaster": [],
     "WifiConfig": false,
     "NetworkConfig": false,
     "SystemTime": false

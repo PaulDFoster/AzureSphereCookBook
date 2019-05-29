@@ -113,11 +113,9 @@ void not_busy(void) {
 	size_t sz = sizeof(WB_READ_STATUS_REG_1);
 
 	SPIMaster_WriteThenRead(spiFd, &WB_READ_STATUS_REG_1, sz, &buf, szbuf);
-	//write(spiFd, &WB_READ_STATUS_REG_1, sz);
 
 	while (buf & 1) {
 		SPIMaster_WriteThenRead(spiFd, &WB_READ_STATUS_REG_1, sz, &buf, szbuf);
-		//read(spiFd, &buf, szbuf);
 	}
 
 }
@@ -422,7 +420,12 @@ int main(int argc, char *argv[])
 	get_jedec_id();
 	chip_erase();
 	read_page(0);
-	write_byte(0, 4, 8);
+
+	for (int i = 1; i < 10; i++)
+	{
+		write_byte(0, i, 8);
+	}
+
 	read_page(0);
 
     // Main loop

@@ -133,33 +133,33 @@
 <hole x="3.81" y="3.81" drill="2"/>
 <hole x="60.96" y="68.58" drill="2"/>
 <hole x="60.96" y="3.81" drill="2"/>
-<text x="18.25" y="66.5" size="1.016" layer="25" rot="R90">3.3v</text>
-<text x="21" y="66.5" size="1.016" layer="25" rot="R90">S CTS</text>
-<text x="23.5" y="66.5" size="1.016" layer="25" rot="R90">S RXD</text>
-<text x="26" y="66.5" size="1.016" layer="25" rot="R90">S RTS</text>
-<text x="28.5" y="66.5" size="1.016" layer="25" rot="R90">S TXD</text>
-<text x="31" y="66.5" size="1.016" layer="25" rot="R90">SYSRST</text>
-<text x="34.5" y="66.5" size="1.016" layer="25" rot="R90">DEBUG 
+<text x="18.25" y="66.5" size="0.8128" layer="25" rot="R90">3.3v</text>
+<text x="21" y="66.5" size="0.8128" layer="25" rot="R90">SCTS</text>
+<text x="23.5" y="66.5" size="0.8128" layer="25" rot="R90">SRXD</text>
+<text x="26" y="66.5" size="0.8128" layer="25" rot="R90">SRTS</text>
+<text x="28.5" y="66.5" size="0.8128" layer="25" rot="R90">STXD</text>
+<text x="31" y="66.5" size="0.8128" layer="25" rot="R90">SYSRST</text>
+<text x="34.5" y="66.5" size="0.8128" layer="25" rot="R90">DEBUG 
 RTS</text>
-<text x="37.75" y="66.5" size="1.016" layer="25" rot="R90">DEBUG 
+<text x="37.75" y="66.5" size="0.8128" layer="25" rot="R90">DEBUG 
 TXD</text>
-<text x="18.25" y="57.5" size="1.016" layer="25" rot="R90">GND</text>
-<text x="20.75" y="56.5" size="1.016" layer="25" rot="R90">R CTS</text>
-<text x="23.5" y="56.5" size="1.016" layer="25" rot="R90">R RTS</text>
-<text x="25.75" y="56.5" size="1.016" layer="25" rot="R90">R TXD</text>
-<text x="28.5" y="56.5" size="1.016" layer="25" rot="R90">R RXD</text>
-<text x="31" y="57.25" size="1.016" layer="25" rot="R90">SWO</text>
-<text x="34.5" y="57.25" size="1.016" layer="25" rot="R90">SWD 
+<text x="18.25" y="57.5" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="20.75" y="57.5" size="0.8128" layer="25" rot="R90">RCTS</text>
+<text x="23.5" y="57.5" size="0.8128" layer="25" rot="R90">RRTS</text>
+<text x="25.75" y="57.5" size="0.8128" layer="25" rot="R90">RTXD</text>
+<text x="28.5" y="57.5" size="0.8128" layer="25" rot="R90">RRXD</text>
+<text x="31" y="57.5" size="0.8128" layer="25" rot="R90">SWO</text>
+<text x="34.5" y="57.5" size="0.8128" layer="25" rot="R90">SWD 
 CLK</text>
-<text x="38" y="57.25" size="1.016" layer="25" rot="R90">SWD 
+<text x="38" y="57.5" size="0.8128" layer="25" rot="R90">SWD 
 DIO</text>
-<text x="62" y="6.5" size="1.27" layer="25" rot="R90">Hand made in Norfolk, 2019. V1.0</text>
-<text x="42.25" y="60.5" size="1.016" layer="25">WF-M620 modules require RTC 
+<text x="62" y="6.5" size="1.27" layer="25" rot="R90">Hand made in Norfolk, V1.0</text>
+<text x="40" y="60.75" size="1.016" layer="25">WF-M620 requires RTC 
 to be powered. Fit CR2032 
 before attempting to use</text>
 <text x="20.75" y="41.5" size="1.016" layer="25" rot="R90">WF-M620</text>
-<text x="35.25" y="8.25" size="1.016" layer="25">Any Adafruit Feather MCU or 
-accessory board should work here.
+<text x="32.5" y="8" size="1.016" layer="25">Any Adafruit Feather MCU or 
+accessory board.
 Feather -&gt; WF-M620:
 SPI -&gt; ISU0
 I2C -&gt; ISU1
@@ -167,6 +167,12 @@ SPI CS (13) -&gt; CSA0
 14 -&gt; GPIO35
 RST -&gt; GPIO31
 EN -&gt; GPIO34</text>
+<text x="61.5" y="35" size="1.778" layer="26" rot="SMR0">Jumper JP1 joins Feather and WF-M620 
+3V power lines. 
+Use carefully to power both 
+devices from one 3V line. 
+POWER ONLY ONE  MODULE
+WHEN JUMPER SET</text>
 </plain>
 <libraries>
 <library name="AzureSphere">

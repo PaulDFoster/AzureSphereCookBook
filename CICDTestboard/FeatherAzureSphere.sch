@@ -274,18 +274,18 @@
 <wire x1="-11.5" y1="8.1" x2="10.4" y2="8.1" width="0.127" layer="21"/>
 <wire x1="10.4" y1="8.1" x2="10.4" y2="8" width="0.127" layer="21"/>
 <wire x1="-11.5" y1="2.25" x2="10.45" y2="2.25" width="0.127" layer="21"/>
-<smd name="P$1" x="-11.95" y="-20.4" dx="3" dy="1" layer="1"/>
-<smd name="P$2" x="-11.95" y="-18.9" dx="3" dy="1" layer="1"/>
-<smd name="P$3" x="-11.95" y="-17.4" dx="3" dy="1" layer="1"/>
-<smd name="P$4" x="-11.95" y="-15.9" dx="3" dy="1" layer="1"/>
-<smd name="P$5" x="-11.95" y="-14.4" dx="3" dy="1" layer="1"/>
-<smd name="P$6" x="-11.95" y="-12.9" dx="3" dy="1" layer="1"/>
-<smd name="P$7" x="-11.95" y="-11.4" dx="3" dy="1" layer="1"/>
-<smd name="P$8" x="-11.95" y="-9.9" dx="3" dy="1" layer="1"/>
-<smd name="P$9" x="-11.95" y="-8.4" dx="3" dy="1" layer="1"/>
-<smd name="P$10" x="-11.95" y="-6.9" dx="3" dy="1" layer="1"/>
-<smd name="P$11" x="-12" y="-5.4" dx="3" dy="1" layer="1"/>
-<smd name="P$12" x="-12" y="-3.9" dx="3" dy="1" layer="1"/>
+<smd name="P$1" x="-11.93" y="-3.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$2" x="-11.93" y="-5.38" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$3" x="-11.93" y="-6.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$4" x="-11.93" y="-8.38" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$5" x="-11.93" y="-9.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$6" x="-11.93" y="-11.38" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$7" x="-11.93" y="-12.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$8" x="-11.93" y="-14.38" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$9" x="-11.93" y="-15.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$10" x="-11.93" y="-17.38" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$11" x="-11.88" y="-18.88" dx="3" dy="1" layer="1" rot="R180"/>
+<smd name="P$12" x="-11.88" y="-20.38" dx="3" dy="1" layer="1" rot="R180"/>
 <smd name="P$13" x="8.45" y="-22.5" dx="1" dy="3" layer="1"/>
 <smd name="P$14" x="6.9" y="-22.5" dx="1" dy="3" layer="1"/>
 <smd name="P$15" x="5.4" y="-22.5" dx="1" dy="3" layer="1"/>

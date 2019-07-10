@@ -857,9 +857,9 @@ at 30/07/2012 15:23:17</description>
 <label x="27.94" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO31_SCLK1_TXD1"/>
-<wire x1="78.74" y1="-5.08" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
-<label x="78.74" y="-30.48" size="1.778" layer="95" rot="R90"/>
+<pinref part="AS1" gate="G$1" pin="GPIO26_SCLK0_TXD"/>
+<wire x1="63.5" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="53.34" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -869,9 +869,9 @@ at 30/07/2012 15:23:17</description>
 <label x="27.94" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO32_MOSI1_RTS1_SCL1"/>
-<wire x1="63.5" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
-<label x="53.34" y="35.56" size="1.778" layer="95"/>
+<pinref part="AS1" gate="G$1" pin="GPIO27_MOSI0_RTS0_SCL0"/>
+<wire x1="63.5" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="53.34" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -881,9 +881,9 @@ at 30/07/2012 15:23:17</description>
 <label x="27.94" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO33_MISO1_RXD1_SDA1"/>
-<wire x1="83.82" y1="-5.08" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
-<label x="83.82" y="-30.48" size="1.778" layer="95" rot="R90"/>
+<pinref part="AS1" gate="G$1" pin="GPIO28_MISO0_RXD0_SDA0"/>
+<wire x1="63.5" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<label x="53.34" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -893,15 +893,15 @@ at 30/07/2012 15:23:17</description>
 <label x="27.94" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO27_MOSI0_RTS0_SCL0"/>
-<wire x1="63.5" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
-<label x="53.34" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R1" gate="A" pin="R1"/>
 <wire x1="17.78" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="10.16" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <label x="35.56" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AS1" gate="G$1" pin="GPIO32_MOSI1_RTS1_SCL1"/>
+<wire x1="63.5" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
+<label x="53.34" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -911,14 +911,14 @@ at 30/07/2012 15:23:17</description>
 <label x="27.94" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO28_MISO0_RXD0_SDA0"/>
-<wire x1="63.5" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
-<label x="53.34" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R2" gate="A" pin="R1"/>
 <wire x1="38.1" y1="-7.62" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 <label x="53.34" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AS1" gate="G$1" pin="GPIO33_MISO1_RXD1_SDA1"/>
+<wire x1="83.82" y1="-5.08" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
+<label x="83.82" y="-30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -997,9 +997,9 @@ at 30/07/2012 15:23:17</description>
 <label x="-27.94" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AS1" gate="G$1" pin="GPIO26_SCLK0_TXD"/>
-<wire x1="63.5" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
-<label x="45.72" y="60.96" size="1.778" layer="95"/>
+<pinref part="AS1" gate="G$1" pin="GPIO31_SCLK1_TXD1"/>
+<wire x1="78.74" y1="-5.08" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<label x="78.74" y="-30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$16" class="0">

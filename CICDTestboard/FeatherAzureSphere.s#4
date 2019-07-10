@@ -1142,6 +1142,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="210.82" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="226.06" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="218.44" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="205.74" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FEATHER_RST" class="0">
 <segment>
@@ -1547,13 +1552,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="223.52" y1="48.26" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
 <label x="241.3" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="V3" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="218.44" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="205.74" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D_FEATHER_3V" class="0">

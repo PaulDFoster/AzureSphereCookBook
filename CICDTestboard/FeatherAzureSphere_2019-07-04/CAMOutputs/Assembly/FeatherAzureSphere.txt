@@ -1,0 +1,9 @@
+Partlist exported from C:/Users/paulfo/Documents/eagle/FeatherAzureSphere/FeatherAzureSphere.sch at 04/07/2019 09:09
+
+Qty Value        Device       Package      Parts   Description                               AVAILABILITY DESCRIPTION                                 MF                  MP   MPN          OC_FARNELL OC_NEWARK PACKAGE PRICE SUPPLIER  TOLERANCE VALUE   WATTAGE
+1                CR2032SMT    CR2032-SMD   CR2023                                                                                                                                                                                                                 
+2                ERJ-8RQF1R5V RESC3216X71N R1, R2  RESISTOR, 1206                                                                                                              ERJ-8RQF1R5V 1717854    15R1531                 Panasonic ±1 %      1.5 Ohm 0.25 W 
+1                PINHD-1X2    1X02         JP1     PIN HEADER                                                                                                                                                                                                     
+1                PINHD-2X8    2X08         .       PIN HEADER                                                                                                                                                                                                     
+1   2821         2821         XCVR_2821    FEATHER Adafruit Feather HUZZAH with ESP8266 WiFi Unavailable   Adafruit Feather HUZZAH with ESP8266 WiFi  Adafruit Industries 2821                                   None    None                                     
+1   WF-M620-RSC1 WF-M620-RSC1 WF-M620-RSC1 AS1                                                                                                                                                                                                                    

@@ -1142,11 +1142,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="210.82" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="226.06" y="104.14" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="-10.16" x2="175.26" y2="-10.16" width="0.1524" layer="91"/>
-<label x="175.26" y="-10.16" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="FEATHER_RST" class="0">
 <segment>
@@ -1485,9 +1480,9 @@ Source: www.st.com, BAT60J.pdf</description>
 <label x="27.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="-7.62" x2="175.26" y2="-7.62" width="0.1524" layer="91"/>
-<label x="175.26" y="-7.62" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="218.44" y1="60.96" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="205.74" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC1" class="0">
@@ -1538,6 +1533,41 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="FEATHER" gate="G$1" pin="ADC5"/>
 <wire x1="-20.32" y1="45.72" x2="-27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="-27.94" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_FEATHER_V3" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="223.52" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
+<label x="241.3" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_V3" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="223.52" y1="48.26" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
+<label x="241.3" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V3" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="218.44" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="205.74" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_FEATHER_3V" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="-7.62" x2="175.26" y2="-7.62" width="0.1524" layer="91"/>
+<label x="175.26" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_3V" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="-10.16" x2="175.26" y2="-10.16" width="0.1524" layer="91"/>
+<label x="175.26" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

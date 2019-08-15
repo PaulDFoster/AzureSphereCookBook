@@ -8,3 +8,6 @@ A collection of Azure Sphere code projects
 5. Cifar10 CMSIS-NN example for Azure Sphere Cortex-M4F core
 6. Eagle library for AI-Link WF-M620 modules
 7. CI/CD testing board for WF-620 modules coupled with Adafruit Feather devices/accessories
+
+
+ML on MCU briefing paper: Technology briefing The future of deep learning is 8-bit 

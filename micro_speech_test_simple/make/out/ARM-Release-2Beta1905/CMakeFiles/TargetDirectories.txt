@@ -1,0 +1,3 @@
+C:/tfProjects/micro_speech_test_simple/make/out/ARM-Release-2Beta1905/CMakeFiles/tflitemcu_speech_test.dir
+C:/tfProjects/micro_speech_test_simple/make/out/ARM-Release-2Beta1905/CMakeFiles/edit_cache.dir
+C:/tfProjects/micro_speech_test_simple/make/out/ARM-Release-2Beta1905/CMakeFiles/rebuild_cache.dir

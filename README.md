@@ -10,5 +10,6 @@ A collection of Azure Sphere code projects
 7. CI/CD testing board for WF-620 modules coupled with Adafruit Feather devices/accessories
 8. C++ Toolchain files for RTCore C++ compilation
 9. Tensorflow Lite for Microcontroller micro speech demo for Azure Sphere RTApp.
+10. Generated micro speech Tensorflow lite for microcontroller library for use with 9)
 
 ML on MCU briefing paper: Technology briefing The future of deep learning is 8-bit 
